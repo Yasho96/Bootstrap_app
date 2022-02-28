@@ -1,5 +1,4 @@
 import React from "react";
-import SarasaviImg from '../assets/sarasavi.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as ReactBootStrap from "react-bootstrap";
 
@@ -12,7 +11,7 @@ export const NavBar = () => {
       <ReactBootStrap.Navbar.Collapse id="navbarScroll">
         <ReactBootStrap.Nav 
           className="me-auto my-2 my-lg-0"
-          style={{ maxHeight: '600px' }}
+          style={{ maxHeight: '100px' }}
           navbarScroll
         >
           <ReactBootStrap.Nav.Link href="#action1">Home</ReactBootStrap.Nav.Link>
@@ -25,8 +24,8 @@ export const NavBar = () => {
               External Publications
             </ReactBootStrap.NavDropdown.Item>
           </ReactBootStrap.NavDropdown>
-          <ReactBootStrap.Nav.Link href="#" disabled>
-            Products
+          <ReactBootStrap.Nav.Link href="#">
+            Contacts
           </ReactBootStrap.Nav.Link>
         </ReactBootStrap.Nav>
         <ReactBootStrap.Form className="d-flex">
