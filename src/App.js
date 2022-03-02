@@ -1,9 +1,14 @@
 import './styles/App.css';
 import {NavBar} from "./components/NavBar";
+import {Grids} from "./components/GridsBootStrap";
 
 function App() {
   return (
-    <NavBar /> 
+    <div className= "App">
+      <NavBar /> 
+      <Grids /> 
+    </div>
+
   );
 }
 

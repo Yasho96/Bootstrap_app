@@ -1,0 +1,109 @@
+.my-grid-container {
+    width: 80%;
+    margin-top: 20px;
+  }  
+  .row-1{
+    height: 250px;
+  }
+  .row-2{
+    height: 125px;
+  }
+  .row-3{
+    height: 625px;
+  }
+  .row-1-col-1 {
+    height: 100%;
+    background-image: url("../assets/book1.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+  }  
+  .row-1-col-2 {
+    height: 100%;
+    background-image: url("../assets/book2.jpg");
+    background-size: cover;
+    text-align: left;
+  }  
+  .row-2-col-1{
+    height: 100%;
+    background-image: url("../assets/book3.jpg");
+    background-size: cover;
+    background-position: right;
+    text-align: left;
+  }
+  .row-2-col-2{
+    height: 200%;
+    background-image: url("../assets/book5.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+
+  }
+  .row-3-col-1{
+    height: 100%;
+    background-image: url("../assets/book6.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+  }
+  .row-3-col-2{
+    height: 80%;
+    align-self: end;
+    background-image: url("../assets/book4.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+  }
+  .row-3-col-3{
+    height: 80%;
+    align-self: end;
+    background-image: url("../assets/book7.jpg");
+    background-size: cover;
+    background-position: right;
+    text-align: left;
+  } 
+  
+
+  @media (max-width: 767px) {
+    .my-grid-container {
+      width: 80%;
+      margin-top: 20px;
+    }  
+    .row-1{
+      height: 250px;
+      margin-bottom: 200px;
+    }
+    .row-2{
+      height: 125px;
+      margin-bottom: 100px;
+    }
+    .row-3{
+      height: 625px;
+    }
+    .row-1-col-1 {
+      height: 100%;
+      background-size: cover;
+    }  
+    .row-1-col-2 {
+      height: 100%;
+      background-size: cover;
+    }  
+    .row-2-col-1{
+      height: 100%;
+    }
+    .row-2-col-2{
+      height: 100%;
+    }
+    .row-3-col-1{
+      height: 120%;
+      align-self: end;
+    }
+    .row-3-col-2{
+      height: 80%;
+      align-self: end;
+    }
+    .row-3-col-3{
+      height: 80%;
+      align-self: end;
+    }
+  }
