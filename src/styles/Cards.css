@@ -1,0 +1,13 @@
+.my-card-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+.card1{
+    border-radius: 30px;
+}
+
+.card1-img,.card2-img, .card3-img,.card4-img{
+    height: 200px;
+    border-radius: 30px;
+}
