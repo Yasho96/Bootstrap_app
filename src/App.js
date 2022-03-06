@@ -5,10 +5,12 @@ import {Cards} from "./components/Cards";
 
 function App() {
   return (
-    <div className= "App">
-      <NavBar /> 
-      <Grids />
-      <Cards /> 
+    <div className= "App" >
+      <body className='main-body'>
+        <NavBar /> 
+        <Grids />
+        <Cards /> 
+      </body>
     </div>
 
   );

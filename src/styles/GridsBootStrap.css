@@ -17,16 +17,23 @@
     background-size: cover;
     background-position: center;
     text-align: left;
+    border-radius: 20px 0 0 0;
   }  
+  .row-1-col-1:hover,.row-1-col-2:hover,.row-2-col-1:hover,.row-2-col-2:hover,.row-3-col-1:hover,.row-3-col-2:hover,.row-3-col-3:hover {
+    box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+    transform: scale(1.02);   
+    cursor: pointer;
+  } 
   .row-1-col-2 {
     height: 100%;
     background-image: url("../assets/book2.jpg");
     background-size: cover;
     text-align: left;
+    border-radius: 0 20px 0 0;
   }  
   .row-2-col-1{
     height: 100%;
-    background-image: url("../assets/book3.jpg");
+    background-image: url("https://images.indianexpress.com/2014/12/hobbit-759.jpg");
     background-size: cover;
     background-position: right;
     text-align: left;
@@ -44,6 +51,7 @@
     background-image: url("../assets/book6.jpg");
     background-size: cover;
     background-position: center;
+    border-radius: 0 0 0 20px;
     text-align: left;
   }
   .row-3-col-2{
@@ -60,6 +68,7 @@
     background-image: url("../assets/book7.jpg");
     background-size: cover;
     background-position: right;
+    border-radius: 0 0 20px 0;
     text-align: left;
   } 
   
