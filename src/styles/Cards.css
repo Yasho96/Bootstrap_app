@@ -1,69 +1,61 @@
-.my-card-container{
-    margin-top: 50px;
-    width: 100%;
-    padding: 20px;
-}
-.title-1{
-    margin-bottom: 50px;
-    color: rgb(255, 255, 255);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px; 
-}
-.cards-row-1{
-    margin-top: 50px;
-    min-height: 400px ;
-    margin-bottom: 30px;
-    width: 100%;
-}
-.card1,.card2,.card3,.card4{
-    border-radius: 25px;
-    height: 90%;
-    transition: transform 0.6;
-    transition: transform .2s;  
-    font-family: "Poppins";
-}
-.card-body {
-    padding: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.title{   
-    color: black;
-    font-family: Poppins;
-    min-width: 100%;
-    font-style: normal;
-    min-width: 100%;
-    min-height: 40px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    text-align: left;
-}
-.card-discription{
-    min-width: 100%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    margin-bottom: 15px;
-    color:rgb(0, 0, 0);
-    text-align: left;
-}
-.card1:hover,.card2:hover, .card3:hover,.card4:hover {
-    box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
-    transform: scale(1.05);
-    border: 4px solid rgb(255, 251, 18);  
+  .App{
+      height: 500px;
+  }
+  .Carousel {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .card {
+    border-radius: 30px;
+    max-width: 290px;
+    height: 390px;
+    box-shadow: 0px 0px 11px #ffffff;
+    transition: transform 0.4s;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 4%;
+  }
+  
+  .card:hover {
+    border: 3px solid black;
+    transform: scale(1.1);
+    border: 2px solid gray;
     cursor: pointer;
-}
-.card1-img,.card2-img, .card3-img,.card4-img{
-    min-width: 100%;
+  }
+  
+  .img {
+    border-radius: 30px 30px 0px 60px;
     height: 150px;
-    border-radius: 25px 25px 0 60px;
-}
-.icon1{
-    width: 40px;
+  }
+  
+  .title {
+    text-align: left;
+    font-family: Gilroy;
+    font-size: 17px;
+    color: #000000;
+    font-weight: 600;
+  }
+  
+  .description {
+    text-align: left;
+  }
+  
+  button {
+    background-color: rgb(49, 48, 48);
+    color: white;
+    border-radius: 8px;
+    border: 0.5px solid #fff;
+    width: 85px;
     height: 40px;
-}
-.card-price {
+    display: flex;
+    margin-left: auto;
+    margin-top: -30px;
+    margin-bottom: 3%;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-price {
     width: 85px;
     height: 43px;
     display: flex;
@@ -80,80 +72,77 @@
     font-weight: 600;
     line-height: 24px;
     border: 0.5px solid #fff;
-}
-.rating-group {
+  }
+  .starGroup{      
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 0;
-}
-.star-group {
-    width: 45%;
-    display: flex;
-    justify-content: space-between;
-}
-.rating-amount {
-    margin-left: 15%;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: black;
-}
-.icon-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-.icon-group {
-    display: flex;
-    flex-direction: row;
-    align-items: right;
   }
   
-.icon {
-    color: black;
-}
-.iconText {
-    font-size: 15px;
-    margin-left: 10px;
-    color: black;
-}
-
-@media (max-width: 767px){
-    .my-card-container{
-        margin-top: 650px;
+  .fa-star-half-o,
+  .fa-star,
+  .fa-star-o {
+    color: #f0b103;
+    justify-content: space-between;
+    margin-left: 3px;
+    display: flex;
+  }
+  
+  .count {
+    color: #0c0c0c;
+    font-size: 16px;
+    margin-left: 5%;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: -2%;
+  }
+  
+  .icon-group {
+    margin-top: 5%;
+  }
+  
+  .iconName {
+    margin-right: 10%;
+    margin-left: 3%;
+    margin-top: -100px;
+    font-style: normal;
+  }
+  
+  @media screen and (max-width: 576px) {
+    
+    
+    .card {
+      width: 75%;
+      margin: auto;
+      margin-bottom: 5%;
+      margin-top: 60%;
     }
-    .title-1{
-        margin-bottom: 50px;
-        color: rgb(255, 255, 255);
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 30px; 
+    .App{
+        
     }
-    .cards-row-1{
-        width: 100%;
-        align-content: center;
+  }
+    @media screen and (max-width: 576px) {
+    .App{
+      height: 1200px;
     }
-    .card1,.card2,.card3,.card4{
-        border-radius: 25px;
-        width: 80%;
-        height: 88%;
-        margin-top: 50px;
-        margin-left: 15%;
+    
+    .card {
+      width: 75%;
+      margin: auto;
+      margin-bottom: 5%;
+      
     }
-    .card1:hover,.card2:hover, .card3:hover,.card4:hover {
-        box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
-        transform: scale(1.05);   
-        cursor: pointer;
-    }
-    .card1-img,.card2-img, .card3-img,.card4-img{
-        height: 150px;
-        border-radius: 25px 25px 0 60px;
-        transition: transform .2s; 
-    }    
-    .icon1{
-        width: 40px;
-        height: 40px;
-    }
-}
+    .carouselCard {
+        padding: 20px;
+        position: relative;
+        margin-top: 700px;
+      }
+      .Carousel {
+        margin-top: 0%;
+        margin-bottom: 5%;
+      }
+  }
+  
+  .carouselCard {
+    padding: 20px;
+    position: relative;
+  }
+  
