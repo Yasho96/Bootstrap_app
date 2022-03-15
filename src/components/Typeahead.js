@@ -49,7 +49,7 @@ import React, { useEffect, useState, useRef } from "react";
   };
 
   return (
-    <div ref={wrapperRef} className="bg">
+    <div ref={wrapperRef} className="background">
       <Typeahead
         className = 'typeahead'
         clearButton

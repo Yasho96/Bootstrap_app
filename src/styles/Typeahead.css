@@ -74,7 +74,11 @@
     padding: 50px;
     margin: auto;
   }
-  
+  .background {   
+    height: 5px;
+    background-position: center;
+    position: relative;
+  }  
   .typeahead {
     margin-top: 1%;
     margin-left: 33%;
@@ -85,7 +89,9 @@
   
   @media screen and (max-width: 576px) {
     .typeahead {
-      margin-top: 10%;
+      margin-top: 0%;
+      margin-left: 1.5%;
+      width: 97%;
     }
   }
   
@@ -95,8 +101,4 @@
     }
   }
   
-  .bg {   
-    height: 5px;
-    background-position: center;
-    position: relative;
-  }
+  
