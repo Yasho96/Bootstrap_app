@@ -66,3 +66,37 @@
   #clearBtn {
     cursor: pointer;
   }
+  .rbt-aux {
+    color: rgb(212, 179, 179);
+  }
+  
+  .container {
+    padding: 50px;
+    margin: auto;
+  }
+  
+  .typeahead {
+    margin-top: 1%;
+    margin-left: 33%;
+    position: relative;
+    width: 33%;
+
+  }
+  
+  @media screen and (max-width: 576px) {
+    .typeahead {
+      margin-top: 10%;
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    .typeahead {
+      margin-top: 5%;
+    }
+  }
+  
+  .bg {   
+    height: 5px;
+    background-position: center;
+    position: relative;
+  }
