@@ -6,7 +6,7 @@ import { Typeahead } from 'react-bootstrap-typeahead';
 import React, { useEffect, useState, useRef } from "react";
 
 
- export const Auto = () => {
+ export const TypeAhead = () => {
   const [display, setDisplay] = useState(false);
   const [options, setOptions] = useState([]);
   const [search, setSearch] = useState("");
