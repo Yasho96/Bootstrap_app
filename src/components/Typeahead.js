@@ -51,7 +51,7 @@ import React, { useEffect, useState, useRef } from "react";
   return (
     <div ref={wrapperRef} className="flex-container flex-column pos-rel">
       <Typeahead
-        className = "typeahead"
+        className = " typeahead"
         clearButton
         defaultSelected={options.slice(0, 1)}
         id="selections-example"
@@ -59,7 +59,6 @@ import React, { useEffect, useState, useRef } from "react";
         onInputChange={(text, e) => { console.log(text, e); }}
         options={options}
         placeholder="Choose a charactor"
-        styles={{}}
       />
       {display && (
         <div className="autoContainer">

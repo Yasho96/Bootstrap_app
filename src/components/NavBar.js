@@ -27,16 +27,7 @@ export const NavBar = () => {
           <ReactBootStrap.Nav.Link href="#">
             Contacts
           </ReactBootStrap.Nav.Link>
-        </ReactBootStrap.Nav>
-        <ReactBootStrap.Form className="d-flex">
-          <ReactBootStrap.FormControl
-            type="search"
-            placeholder="Search"
-            className="me-2"
-            aria-label="Search"
-          />
-          <ReactBootStrap.Button variant="outline-primary">Search</ReactBootStrap.Button>
-        </ReactBootStrap.Form>
+        </ReactBootStrap.Nav>     
       </ReactBootStrap.Navbar.Collapse>
     </ReactBootStrap.Container>
   </ReactBootStrap.Navbar>
