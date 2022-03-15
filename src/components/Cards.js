@@ -3,7 +3,6 @@ import { Card } from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.min.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function App() {
   const responsive = {
