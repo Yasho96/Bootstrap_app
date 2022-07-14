@@ -3,6 +3,9 @@ import {NavBar} from "./components/NavBar";
 import {Grids} from "./components/GridsBootStrap";
 import Cards from "./components/Cards";
 import {TypeAhead} from "./components/Typeahead";
+// import {InfiniteScroll} from "./components/InfiniteScroll";
+import { Posts } from './components/Posts';
+//import { LoadingPosts } from './LoadingPosts';
 //import SearchBar from "./components/SearchBar";
 //import BookData from "./db/Data.json";
 
@@ -13,7 +16,10 @@ function App() {
         <NavBar />         
         <TypeAhead />
         <Grids />
-        <Cards /> 
+        <Cards />
+         {/* <LoadingPosts /> */}
+        <Posts /> 
+        {/*<InfiniteScroll/>*/}
       </body>
     </div>
 
@@ -21,3 +27,4 @@ function App() {
 }
 
 export default App;
+

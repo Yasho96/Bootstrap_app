@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f14befe.css",
+    "main.js": "/static/js/main.6cc78aa7.js",
+    "static/media/book1.jpg": "/static/media/book1.ff7b03c26e0a7d6f0525.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/book7.jpg": "/static/media/book7.5566ff9741f60ff06f5f.jpg",
+    "static/media/book6.jpg": "/static/media/book6.f45a6cbc5759f8951c91.jpg",
+    "static/media/book4.jpg": "/static/media/book4.6a3c7617a1e3e5160969.jpg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/book5.jpg": "/static/media/book5.83f4fcb9feafe1b3c57e.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.0f14befe.css.map": "/static/css/main.0f14befe.css.map",
+    "main.6cc78aa7.js.map": "/static/js/main.6cc78aa7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f14befe.css",
+    "static/js/main.6cc78aa7.js"
+  ]
+}
